@@ -87,3 +87,14 @@ audio{
 .titletext{
 	text-align: center;
 }
+
+.candids{
+	align-content: center;
+}
+
+.candid{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 175px;
+}
