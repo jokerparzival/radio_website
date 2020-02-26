@@ -39,18 +39,19 @@ html{
 
 .content{
 	background-color: rgb(230, 223, 223);
-	margin-left: 200px;
-	margin-right: 200px;
+	margin-left: 150px;
+	margin-right: 150px;
 	font-size: 20px;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	overflow: hidden;
+	position: relative;
 }
 
 .ron{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	height: 175px;
+	height: 300px;
 }
 
 h5{
@@ -62,13 +63,14 @@ h5{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	height: 175px;
+	height: 250px;
 }
 
 p {
 	margin-left: 50px;
 	margin-right: 50px;
 	font-size: 22px;
+	position: relative;
 }
 
 h2 {
@@ -97,15 +99,15 @@ audio{
 	text-align: center;
 }
 
-.candids{
-	align-content: center;
+.flex-container{
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-around;
+	height: 2000px;
 }
 
-.candid{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	height: 175px;
+.flex-item{
+	padding: 25px;
 }
 
 #ldbanner{
@@ -122,4 +124,8 @@ audio{
 	display: block;
 	width: 350px;
 	border: 3px solid black;
+}
+
+img{
+	height: 250px;
 }
