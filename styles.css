@@ -1,6 +1,6 @@
 /* navigation stuff starts here*/
 nav {
-	background-color: rgb(181, 22, 14);
+	background-color: rgb(181, 24, 24);
 	overflow: hidden;
 	width: 100%;
 	text-align: center;
@@ -18,7 +18,7 @@ nav a {
 }
 
 nav a:hover{
-	background-color: rgb(156, 144, 143);
+	background-color: rgb(176, 141, 141);
 }
 
 .titlepic{
@@ -34,11 +34,11 @@ nav a:hover{
 /* navigation stuff ends here*/
 
 html{
-	background-color: rgb(117, 28, 23);
+	background-color: rgb(102, 0, 0);
 }
 
 .content{
-	background-color: rgb(230, 223, 223);
+	background-color: rgb(237, 225, 225);
 	margin-left: 150px;
 	margin-right: 150px;
 	font-size: 20px;
@@ -47,12 +47,20 @@ html{
 	position: relative;
 }
 
-.ron{
+#ron{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	height: 300px;
 }
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 300px;
+}
+
 
 h5{
 	text-align: center;
@@ -67,9 +75,9 @@ h5{
 }
 
 p {
-	margin-left: 50px;
-	margin-right: 50px;
-	font-size: 22px;
+	margin-left: 75px;
+	margin-right: 75px;
+	font-size: 23px;
 	position: relative;
 }
 
@@ -78,7 +86,7 @@ h2 {
 }
 
 h3{
-	margin: 20px;
+	margin-left: 100px;
 }
 
 h4{
@@ -100,14 +108,16 @@ audio{
 }
 
 .flex-container{
-	flex-flow: row wrap;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around; /* i have no clue why first 2 are off center*/
 	align-items: center;
-	justify-content: space-around;
-	height: 2000px;
 }
 
 .flex-item{
 	padding: 25px;
+	margin: auto;
 }
 
 #ldbanner{
@@ -129,3 +139,40 @@ audio{
 img{
 	height: 250px;
 }
+
+.embolden{
+	color: rgb(130, 27, 27)
+}
+
+strong{
+	margin-left: 75px;
+}
+
+.debug{
+	text-decoration: none;
+	color: rgb(230, 223, 223);
+}
+
+
+
+.nav2{
+	background-color: rgb(0, 0, 230);
+	overflow: hidden;
+	width: 100%;
+	text-align: center;
+}
+
+.nav2 a{
+	color: white;
+	display: inline-block;
+	padding: 25px 38px;
+	text-decoration: none;
+	font-size: 33px;
+
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav2 a:hover{
+	background-color: rgb(0, 153, 0);
+}
+
